@@ -1,0 +1,13 @@
+brain-dump-app
+│
+├ frontend
+│   ├ index.html
+│   ├ style.css
+│   └ script.js
+│
+├ backend
+│   ├ server.js
+│   ├ package.json
+│   └ .env  ← PUT API KEY HERE
+│
+└ .gitignore

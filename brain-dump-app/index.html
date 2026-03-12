@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BrainDump</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Welcome back, student.</h1>
+
+<div class="grid">
+
+<div class="card">
+<h2>Pomodoro</h2>
+<p id="timer">25:00</p>
+<button onclick="startTimer()">Start</button>
+<button onclick="resetTimer()">Reset</button>
+</div>
+
+<div class="card">
+<h2>Calculator</h2>
+<input id="calcInput" placeholder="Type math...">
+<button onclick="calculate()">Solve</button>
+<p id="calcResult"></p>
+</div>
+
+<div class="card chatbot">
+<h2>AI Study Assistant</h2>
+<div id="chatBox"></div>
+
+<input id="chatInput" placeholder="Ask something...">
+<button onclick="sendMessage()">Send</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
